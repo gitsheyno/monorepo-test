@@ -1,0 +1,5 @@
+{
+  "name": "@shayan/package-b",
+  "version": "1.0.0",
+  "main": "svg/image-b.svg"
+}

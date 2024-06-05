@@ -1,0 +1,83 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.1.2",
+  "deps": {
+    "vue": "^3.2.47",
+    "@types/node": "^20.2.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "13046175384202504187"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "2924711551599599544"
+      },
+      {
+        "file": "README.md",
+        "hash": "12201597548300786130"
+      },
+      {
+        "file": "index.html",
+        "hash": "2041538145237984364"
+      },
+      {
+        "file": "package.json",
+        "hash": "1108452634881852736"
+      },
+      {
+        "file": "public/vite.svg",
+        "hash": "16046085400642193116"
+      },
+      {
+        "file": "src/App.vue",
+        "hash": "9715368713481644286"
+      },
+      {
+        "file": "src/assets/vue.svg",
+        "hash": "6215844894841429247"
+      },
+      {
+        "file": "src/index.ts",
+        "hash": "12399038585253754894"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "16191179116649366684"
+      },
+      {
+        "file": "src/shims-vue.d.ts",
+        "hash": "9703301998418590021"
+      },
+      {
+        "file": "src/style.css",
+        "hash": "9062188384862178705"
+      },
+      {
+        "file": "src/vite-env.d.ts",
+        "hash": "12946363841406869089"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "11148833002843097605"
+      },
+      {
+        "file": "tsconfig.node.json",
+        "hash": "4208030242441905014"
+      },
+      {
+        "file": "vite.config.ts",
+        "hash": "10542251760378220860"
+      }
+    ]
+  }
+}
