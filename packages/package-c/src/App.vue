@@ -1,12 +1,13 @@
 <script setup lang="ts">
 
-defineProps<{ text: string }>()
+// defineProps<{ text: string }>()
+const props = defineProps(['text'])
 
 </script>
 
 <template>
   <!-- <button class="btn-cta">{{ text }}</button> -->
-  <button class="btn-cta">Hello</button>
+  <button class="btn-cta">{{props.text}}</button>
 </template>
 
 <style scoped>
