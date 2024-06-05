@@ -2,13 +2,14 @@
   "name": "@shayan/package-c",
   "version": "1.0.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/shayan-component-lib.umd.cjs",
   "module": "./dist/shayan-component-lib.js",
   "exports": {
     ".": {
       "import": "./src/index.ts"
-  
     },
     "./style.css": "./dist/style.css"
   },
