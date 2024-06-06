@@ -1,6 +1,6 @@
 {
   "name": "@shayan/package-c",
-  "version": "3.4.0",
+  "version": "4.0.0",
   "type": "module",
   "files": [
     "dist"
