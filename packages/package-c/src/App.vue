@@ -1,12 +1,10 @@
 <script setup lang="ts">
-
-// defineProps<{ text: string }>()
+import sayHello from "@shayan/package-a"
 const props = defineProps(['text'])
-
+sayHello("shayan")
 </script>
 
 <template>
-  <!-- <button class="btn-cta">{{ text }}</button> -->
   <button class="btn-cta">{{props.text}} click</button>
 </template>
 
