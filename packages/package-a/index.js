@@ -1,3 +1,3 @@
 export default (name)=>{
-    return console.log(`hello ${name} string`)
+    return `hello ${name}`
 }

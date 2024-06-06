@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import sayHello from "@shayan/package-a"
 const props = defineProps(['text'])
-sayHello("shayan")
+const name = sayHello("shayan")
 </script>
 
 <template>
-  <button class="btn">{{props.text}} click</button>
+  <button class="btn">{{props.text}}</button>
 </template>
 
 <style scoped>
