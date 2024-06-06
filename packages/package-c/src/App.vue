@@ -5,37 +5,41 @@ sayHello("shayan")
 </script>
 
 <template>
-  <button class="btn-cta">{{props.text}} click</button>
+  <button class="btn">{{props.text}} click</button>
 </template>
 
 <style scoped>
-.btn-cta {
-  background-color: #d0d0d5;
-  border-width: 3px;
-  border-color: #1b1b32;
-  border-radius: 0;
-  border-style: solid;
-  color: #1b1b32;
-  display: block;
-  margin-bottom: 0;
-  font-weight: normal;
+/* Base button style */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
   text-align: center;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 18px;
-  line-height: 1.42857143;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
-.btn-cta:active:hover,
-.btn-cta:focus,
-.btn-cta:hover {
-  background-color: #1b1b32;
-  border-width: 3px;
-  border-color: #000;
-  background-image: none;
-  color: #f5f6f7;
+/* Button hover effect */
+.btn:hover {
+  background-color: #0056b3;
 }
+
+/* Button active effect */
+.btn:active {
+  background-color: #004085;
+  transform: scale(0.98);
+}
+
+/* Button focus effect */
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5);
+}
+
 </style>
