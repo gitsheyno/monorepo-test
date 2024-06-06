@@ -1,6 +1,6 @@
 {
   "name": "@shayan/package-c",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "type": "module",
   "files": [
     "dist"
@@ -21,9 +21,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.47",
-    "@shayan/package-a" : "workspace:*"
-    
+    "@shayan/package-a": "workspace:*",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
