@@ -1,5 +1,6 @@
 {
   "name": "@shayan/package-a",
   "version": "3.0.0",
-  "main": "index.js"
+  "main": "index.js",
+  "@shayan/package-b" : "workspace:*"
 }
