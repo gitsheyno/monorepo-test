@@ -6,6 +6,5 @@
     "version": {
       "changelogEntryAdditionalMarkdown": "### Some title\n\nSome *you can see the latest changes here*"
     }
-  },
-  "changelogPreset": "vue"
+  }
 }
