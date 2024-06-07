@@ -1,3 +1,3 @@
 export default (name)=>{
-    return `hello ${name}`
+    return `${name}`
 }
