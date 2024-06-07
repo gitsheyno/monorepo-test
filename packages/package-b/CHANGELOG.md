@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/gitsheyno/monorepo-test/compare/v5.2.0...v6.0.0) (2024-06-07)
+
+**Note:** Version bump only for package @shayan/package-b
+
+new changes in this package
+
+
+
+
+
 ## [5.1.3](https://github.com/gitsheyno/monorepo-test/compare/v5.1.2...v5.1.3) (2024-06-06)
 
 **Note:** Version bump only for package @shayan/package-b
