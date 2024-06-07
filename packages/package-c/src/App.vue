@@ -5,7 +5,7 @@ const name = sayHello("shayan")
 </script>
 
 <template>
-  <button class="btn">{{props.text}}</button>
+  <button class="btn">click here</button>
 </template>
 
 <style scoped>
